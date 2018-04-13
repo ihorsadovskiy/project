@@ -1,0 +1,79 @@
+
+body{
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/subtlenet2.png);
+    font: 1em Tahoma,Arial;
+    }
+table, td {border: 1px solid #69684b;
+}
+table {
+    width: 450px;
+    border-collapse: collapse;
+    margin: auto;
+}
+td, th {
+    height: 20px;
+    padding: 3px;
+}
+th {
+    border: 2px solid #69684b;
+    background-color: #fcffd6;
+}
+th.head {
+    background-color: #faff96;
+    font-size: 1.25em;
+}
+tr{   text-align: center;
+    background-color: #fff;
+}
+
+tr.dark {
+    background-color: silver
+}
+tr:hover{
+    background-color: #2fc5ff;
+}
+
+.div-table, .div-td{
+    border: 1px solid #69684b;
+}
+.div-table {
+    display: table;
+    width: 450px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.div-td, .div-th{
+    height: 20px;
+    padding: 3px;
+}
+.div-tr {
+    display: table-row ;
+    text-align: center;
+    background-color: #fff;
+}
+.div-trd {
+    display: table-row ;
+    text-align: center;
+    background-color: silver;
+}
+.div-td {
+    display: table-cell;
+}
+.div-th {
+    display: table-cell;
+    border: 2px solid #69684b;
+    background-color: #fcffd6;
+    font-weight: bold;
+}
+.header{
+    width: 442px;
+    font-size: 1.25em;
+    margin: 20px auto;
+    margin-bottom: 0;
+    border: 2px solid #69684b;
+    border-bottom: 0;
+    padding: 3px;
+    text-align: center;
+    background-color: #faff96;
+    font-weight: bold;
+}
