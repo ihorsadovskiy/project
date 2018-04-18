@@ -1,8 +1,93 @@
-body {background: url(https://www.toptal.com/designers/subtlepatterns/patterns/subtlenet2.png);
-font: 1em Tahoma,Arial;}
-h1 {
-  color: #a7eee0;
+body{
+    font-family: Arial, sans-serif;
+    font-size: 1em;
 }
-.text{
-  border-radius: 3px;
+.container {
+    margin:0 auto;
+    width: 1365px;
+    height: 1020px;
+    background-color: #f1f3f6;
+    display: block;
+    box-sizing: border-box;
+}
+.container {
+    .aside {
+        width: 240px;
+        height: 1020px;
+        background-color: #2b3842;
+        box-sizing: border-box;
+    }
+    .aside-head {
+        width: 240px;
+        height: 70px;
+        background-color: #050d25;
+        color: #eee;
+        text-align: center;
+        font-size: 45px;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .header {
+        width: 1125px;
+        height: 70px;
+        float: right;
+        background-color: #fff;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+    }
+}
+.container{
+    .aside{
+        .aside-head{
+            width: 240px;
+            height: 70px;
+            background-color: #050d25;
+            color: #eee;
+            text-align: center;
+            font-size: 45px;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .box-size{
+            box-sizing: border-box;
+        }
+        .aside-menu{
+            .aside-hover:hover{
+                background-color: #050d25;
+                color: #fff;
+            }
+            .clear{
+                height: 50px;
+            }
+            .venues{
+                height: 50px;
+                color: #aeaeae;
+                text-align: center;
+                font-size: 30px;
+                padding: 10px;
+            }
+            .market{
+                height: 50px;
+                color: #aeaeae;
+                text-align: center;
+                font-size: 30px;
+                padding: 10px;
+            }
+            .ridesafe{
+                height: 50px;
+                color: #aeaeae;
+                text-align: center;
+                font-size: 30px;
+                padding: 10px;
+            }
+            .users{
+                height: 50px;
+                color: #aeaeae;
+                text-align: center;
+                font-size: 30px;
+                padding: 10px;
+            }
+        }
+    }
+
 }
