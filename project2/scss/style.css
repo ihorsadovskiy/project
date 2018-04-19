@@ -1,0 +1,104 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px; }
+
+.container {
+  margin: 0 auto;
+  width: 1365px;
+  height: 1020px;
+  background-color: #f1f3f6;
+  display: block;
+  box-sizing: border-box; }
+  .container .header {
+    width: 1125px;
+    height: 70px;
+    float: right;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+    .container .header .header-elements .img-combined-shape {
+      position: relative;
+      margin: 25px 0 25px 80px; }
+    .container .header .header-elements .header-aside {
+      width: 260px;
+      float: right;
+      position: relative;
+      text-align: center;
+      font-size: 20px;
+      padding: 0; }
+    .container .header .header-elements .but-sing_out {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.6px;
+      padding: 0; }
+    .container .header .header-elements .img-shape {
+      padding: 25px 36px 0 0; }
+    .container .header .header-elements .img-history {
+      padding: 19px 34px 0 0; }
+    .container .header .header-elements .img-grupe-7 {
+      padding: 21px 20px 0 20px; }
+  .container .aside {
+    width: 240px;
+    height: 1020px;
+    background-color: #2b3842;
+    box-sizing: border-box; }
+    .container .aside .sidebar-corect {
+      width: 150px;
+      position: relative;
+      float: right;
+      padding-top: 15px; }
+    .container .aside .aside-head {
+      width: 240px;
+      height: 70px;
+      background-color: #050d25;
+      color: #eee;
+      text-align: center;
+      font-size: 45px;
+      padding: 8px;
+      box-sizing: border-box; }
+    .container .aside .box-size {
+      box-sizing: border-box; }
+    .container .aside .aside-menu .img-sidebar {
+      padding: 10px 0 0 33px; }
+    .container .aside .aside-menu .aside-hover:hover {
+      background-color: #050d25;
+      color: #fff;
+      cursor: pointer; }
+    .container .aside .aside-menu .clear {
+      height: 50px; }
+    .container .aside .aside-menu .venues {
+      height: 50px;
+      color: #aeaeae;
+      font-size: 18px;
+      text-align: left;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+      text-decoration: none; }
+    .container .aside .aside-menu .market {
+      height: 50px;
+      color: #aeaeae;
+      font-size: 18px;
+      text-align: left;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+      text-decoration: none; }
+    .container .aside .aside-menu .ridesafe {
+      height: 50px;
+      color: #aeaeae;
+      font-size: 18px;
+      text-align: left;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+      text-decoration: none; }
+    .container .aside .aside-menu .users {
+      height: 50px;
+      color: #aeaeae;
+      font-size: 18px;
+      text-align: left;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
