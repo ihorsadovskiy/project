@@ -1,0 +1,7 @@
+.container {
+  margin: 0 auto;
+  width: 1365px;
+  height: 1020px;
+  background-color: #f1f3f6;
+  display: block;
+  box-sizing: border-box; }
