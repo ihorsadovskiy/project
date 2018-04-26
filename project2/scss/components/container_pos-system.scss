@@ -1,0 +1,19 @@
+@import "../components/input_pos-system.css";
+.container_pos-system{
+  margin: 35px;
+  column-count: 2;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+.pos_system{
+  width: 840px;
+  height: 585px;
+  background-color: #fff;
+  position: relative;
+  display: block;
+  float: right;
+  margin: 202px 205px 0 0;
+  box-sizing: border-box;
+}

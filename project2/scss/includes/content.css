@@ -1,0 +1,8 @@
+@import url(../components/buttons/but_save.css);
+@import url(../components/buttons/but-venue_list.css);
+@import url(../components/table-top_menu.css);
+@import url(../components/container_pos-system.css);
+.content {
+  position: relative;
+  float: right;
+  box-sizing: border-box; }
