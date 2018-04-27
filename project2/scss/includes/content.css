@@ -1,8 +1,10 @@
 @import url(../components/buttons/but_save.css);
 @import url(../components/buttons/but-venue_list.css);
-@import url(../components/table-top_menu.css);
+@import url(../components/navigation.css);
 @import url(../components/container_pos-system.css);
+@import url(../components/caption_pos-system.css);
 .content {
   position: relative;
   float: right;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  width: 1125px; }

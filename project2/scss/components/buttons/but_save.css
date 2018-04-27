@@ -7,4 +7,6 @@
   background-color: #00add8;
   color: #fff;
   margin: 50px 20px 0 0;
-  cursor: pointer; }
+  cursor: pointer;
+  border: none;
+  outline: none; }

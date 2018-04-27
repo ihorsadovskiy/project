@@ -7,5 +7,7 @@
   border-radius: 5px;
   background-color: #00add8;
   color: #fff;
-  margin: 50px 105px 0 0;
-  cursor: pointer; }
+  margin: 50px 110px 0 0;
+  cursor: pointer;
+  border: none;
+  outline: none; }

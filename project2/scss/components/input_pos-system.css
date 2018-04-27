@@ -5,4 +5,10 @@
   border: solid 2px #cdeff8;
   display: block;
   flex-basis: auto;
-  margin-bottom: 40px; }
+  margin: 10px 0 25px 0;
+  font-size: 14px;
+  padding-left: 10px; }
+
+.input-pos_system:focus {
+  border-color: #00add8;
+  outline: none; }
