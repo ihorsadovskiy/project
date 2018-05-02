@@ -5,4 +5,5 @@
   text-align: left;
   font-weight: 500;
   letter-spacing: 0.4px;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: background-color .2s; }
