@@ -1,0 +1,31 @@
+button {
+  letter-spacing: .5px;
+  border-radius: 5px;
+  background-color: $blue;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color .2s;
+}
+button:hover{
+  color: #fff;
+  background-color: #0097d8;
+}
+button:active{
+  color: #fff;
+  background-color: #007dac;
+}
+
+.but-sing_out {
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  color: black;
+  padding: 5px;
+  margin-right: 16px;
+}
+.but-sing_out:active{
+  color: $blue;
+}
