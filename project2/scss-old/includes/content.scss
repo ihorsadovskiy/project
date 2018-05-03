@@ -1,0 +1,13 @@
+@import "../components/buttons/but_save";
+@import "../components/buttons/but-venue_list";
+@import "../components/buttons/but-general_style";
+@import "../components/navigation";
+@import "../components/container_pos-system";
+@import "../components/caption_pos-system";
+@import "../components/input_pos-system";
+.content{
+  position: relative;
+  float: right;
+  box-sizing: border-box;
+  width: 1125px;
+}

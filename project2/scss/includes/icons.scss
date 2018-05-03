@@ -1,0 +1,12 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  &.shape {
+    background-image: url("../../images/icons/shape.svg");
+    width: 20px;
+    height: 20px;
+  }
+  &.history {
+
+  }
+}
