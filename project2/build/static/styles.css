@@ -368,9 +368,14 @@ template {
   display: none;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  height: 100%;
 }
 
 .right {
@@ -385,6 +390,21 @@ a {
   text-decoration: none;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1367px;
+  width: 100%;
+  height: 100%;
+  background-color: #f1f3f6;
+  display: block;
+  box-sizing: border-box;
+  border: solid 1px silver;
+}
+
+.container.full aside {
+  display: none;
+}
+
 .icon {
   display: inline-block;
   background-repeat: no-repeat;
@@ -395,62 +415,48 @@ a {
   background-image: url("./img/icons/shape.svg");
   width: 20px;
   height: 20px;
-  padding: 0 36px 0 0;
-  margin-top: 3px;
 }
 
 .icon.sing-out {
   background-image: url("./img/icons/sing-out.svg");
-  width: 20px;
+  width: 21px;
   height: 20px;
-  padding: 0 20px 0 0;
 }
 
 .icon.history {
   background-image: url("./img/icons/history.svg");
-  width: 20px;
-  height: 20px;
-  padding: 5px 34px 0 0;
-  margin-top: -3px;
+  width: 24px;
+  height: 26px;
 }
 
 .icon.combined-shape {
   background-image: url("./img/icons/combined-shape.svg");
-  width: 26px;
+  width: 25px;
   height: 20px;
-  margin-left: 80px;
 }
 
 .icon.venue {
   background-image: url("./img/icons/venue.svg");
-  width: 30px;
-  height: 30px;
-  padding: 10px 0 0 58px;
-  margin: 7px 0 0 32px;
+  width: 26px;
+  height: 26px;
 }
 
 .icon.market {
   background-image: url("./img/icons/market.svg");
-  width: 30px;
-  height: 30px;
-  padding: 10px 0 0 58px;
-  margin: 7px 0 0 32px;
+  width: 15px;
+  height: 24px;
 }
 
 .icon.ridesafe {
   background-image: url("./img/icons/ridesafe.svg");
-  width: 30px;
-  height: 30px;
-  padding: 10px 0 0 58px;
-  margin: 7px 0 0 32px;
+  width: 35px;
+  height: 26px;
 }
 
 .icon.user {
   background-image: url("./img/icons/user.svg");
-  width: 30px;
-  height: 30px;
-  padding: 10px 0 0 58px;
-  margin: 7px 0 0 32px;
+  width: 22px;
+  height: 25px;
 }
 
 .icon.qurum-lable {
@@ -459,59 +465,21 @@ a {
   height: 100%;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1367px;
-  width: 100%;
-  height: 1022px;
-  background-color: #f1f3f6;
-  display: block;
-  box-sizing: border-box;
-  border: solid 1px silver;
-}
-
 header {
-  max-width: 1125px;
   width: 100%;
-  padding: 22px 0;
-  float: right;
+  padding: 23px 0 24px;
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 
-header .header-elements .img-combined-shape {
-  position: relative;
-  margin: 25px 0 25px 80px;
+header > * {
+  padding: 0 36px 0 0;
+  margin-top: 3px;
 }
 
-header .header-elements .header-aside {
-  width: 260px;
-  position: relative;
-  text-align: center;
-  font-size: 20px;
-  padding: 0;
-}
-
-header .header-elements .but-sing_out {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.6px;
-  padding: 0;
-}
-
-header .header-elements .img-shape {
-  padding: 25px 36px 0 0;
-}
-
-header .header-elements .img-history {
-  padding: 19px 34px 0 0;
-}
-
-header .header-elements .img-grupe-7 {
-  padding: 21px 20px 0 20px;
+header .burger {
+  margin: 0 0 0 32px;
 }
 
 aside {
@@ -519,10 +487,7 @@ aside {
   height: 100%;
   background-color: #2b3842;
   box-sizing: border-box;
-}
-
-aside .aside-menu {
-  position: absolute;
+  float: left;
 }
 
 aside .aside-head {
@@ -551,9 +516,9 @@ aside .aside-hover:hover {
   cursor: pointer;
 }
 
-aside .aside-focus:focus {
-  background-color: #050d25;
-  color: #fff;
+aside .icon-position {
+  padding: 10px 0 0 58px;
+  margin: 9px 0 0 32px;
 }
 
 button {

@@ -3,9 +3,8 @@ aside {
   height: 100%;
   background-color: $grey-dark;
   box-sizing: border-box;
-  .aside-menu{
-    position: absolute;
-  }
+  float: left;
+
   .aside-head {
     width: 240px;
     height: 70px;
@@ -28,8 +27,8 @@ aside {
     color: #fff;
     cursor: pointer;
   }
-  .aside-focus:focus{
-    background-color: $dark;
-    color: #fff;
+  .icon-position{
+    padding: 10px 0 0 58px;
+    margin: 9px 0 0 32px;
   }
 }
