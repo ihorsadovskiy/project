@@ -401,7 +401,7 @@ a {
   border: solid 1px silver;
 }
 
-.container.full aside {
+.full {
   display: none;
 }
 
@@ -424,9 +424,9 @@ a {
 }
 
 .icon.history {
-  background-image: url("./img/icons/history.svg");
-  width: 24px;
-  height: 26px;
+  background-image: url("./img/icons/history-clear.svg");
+  width: 20px;
+  height: 20px;
 }
 
 .icon.combined-shape {
@@ -480,6 +480,21 @@ header > * {
 
 header .burger {
   margin: 0 0 0 32px;
+}
+
+header .enumerator {
+  height: 15px;
+  min-width: 15px;
+  position: absolute;
+  background-color: #00e19c;
+  border-radius: 7.5px;
+  margin: -7px 0px 0px 10px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.6px;
+  text-align: center;
+  line-height: 15px;
 }
 
 aside {
