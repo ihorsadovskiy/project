@@ -1,9 +1,8 @@
 header {
   width: 100%;
   padding: 23px 0 24px;
-  background-color: #fff;
+  background-color: $white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
-  box-sizing: border-box;
   > * {
     padding: 0 36px 0 0;
     margin-top: 3px;
@@ -20,7 +19,7 @@ header {
     margin: -7px 0px 0px 10px;
     font-size: 9px;
     font-weight: 500;
-    color: #fff;
+    color: $white;
     letter-spacing: 0.6px;
     text-align: center;
     line-height: 15px;

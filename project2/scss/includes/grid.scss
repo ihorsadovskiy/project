@@ -1,5 +1,7 @@
 .row {
+  display: flex;
+  justify-content: space-evenly;
   .col {
-
+    max-width: 100%;
   }
 }
