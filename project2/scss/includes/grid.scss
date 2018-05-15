@@ -1,7 +1,13 @@
 .row {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
   .col {
     max-width: 100%;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
   }
+}
+.w-100{
+  width: 100% !important;
 }

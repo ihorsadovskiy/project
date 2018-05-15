@@ -398,7 +398,7 @@ a {
   margin: 0 auto;
   max-width: 1367px;
   width: 100%;
-  height: 100%;
+  height: 1000px;
   background-color: #f1f3f6;
   display: block;
   box-sizing: border-box;
@@ -412,7 +412,7 @@ a {
 
 @media screen and (max-width: 850px) {
   .navigation {
-    display: none;
+    display: none !important;
   }
 
   .select {
@@ -420,19 +420,53 @@ a {
   }
 }
 
-@media screen and (max-width: 1100px) {
-  .full {
+@media screen and (max-width: 770px) {
+  .pos_system {
+    max-width: 620px !important;
+    height: 1180px !important;
+  }
+
+  .container {
+    height: 1600px !important;
+  }
+
+  .w-100 {
     display: none;
+  }
+
+  .col {
+    flex-basis: auto !important;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .full {
+    display: none !important;
+  }
+
+  .pos_system {
+    margin: 30px 20px 0 80px !important;
   }
 }
 
 .row {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .row .col {
   max-width: 100%;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+.w-100 {
+  width: 100% !important;
 }
 
 .icon {
@@ -611,12 +645,14 @@ button:active {
 }
 
 .content {
-  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .content .navigation-bar {
   height: 40px;
   margin: 50px 0 0 0;
+  justify-content: space-evenly;
 }
 
 .content .select {
@@ -628,6 +664,8 @@ button:active {
   height: 100%;
   border-radius: 5px;
   border: 2px solid #979797;
+  background-color: #f1f3f6;
+  outline: none;
 }
 
 .content .navigation {
@@ -671,76 +709,40 @@ button:active {
   color: #00add8;
 }
 
-.content .container_pos-system {
-  margin: 60px 35px 35px 35px;
-  column-count: 2;
-}
-
 .content p {
   margin: 0;
-  color: #4a4a4a;
-}
-
-.content .pos_system {
-  width: 840px;
-  height: 585px;
-  background-color: #fff;
-  position: relative;
-  display: block;
-  float: right;
-  margin: 30px 205px 0 0;
-}
-
-.content .input-pos_system {
-  width: 345px;
-  height: 40px;
-  border-radius: 5px;
-  border: solid 2px #cdeff8;
-  display: block;
-  flex-basis: auto;
-  margin: 10px 0 25px 0;
-  font-size: 14px;
-  padding-left: 10px;
-}
-
-.content .input-pos_system:focus {
-  border-color: #00add8;
-  outline: none;
+  color: #000;
 }
 
 .caption_pos-system {
-  width: 1040px;
-  height: 50px;
-  position: relative;
-  display: block;
-  float: right;
+  display: flex;
   margin-top: 50px;
+  padding-left: 80px;
 }
 
 .strip {
   width: 5px;
   height: 50px;
-  position: relative;
   background-color: #979797;
-  float: left;
+}
+
+.p-pos_system {
+  position: absolute;
 }
 
 .txt_pos-system {
-  position: relative;
-  float: left;
   font-size: 24px;
   font-weight: 500;
   letter-spacing: 0.5px;
   text-align: left;
   line-height: 2;
   color: #000 !important;
+  width: 185px !important;
   padding-left: 30px;
 }
 
 .line {
-  position: relative;
-  float: left;
-  width: 810px;
+  width: 72%;
   height: 1px;
   border: solid 1px #979797;
   background-color: #979797;
@@ -749,18 +751,76 @@ button:active {
 }
 
 .bar_pos-system {
-  width: 1040px;
-  height: 22px;
-  position: relative;
-  float: right;
+  display: flex;
+  padding-left: 80px;
   margin-top: 50px;
 }
 
-.txt_bar_pos-sysytem {
-  position: relative;
+.txt_bar_pos-system {
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.6px;
   text-align: left;
   color: #000;
+}
+
+input[type=text],
+input[type=password] {
+  border-radius: 5px;
+  border: solid 2px #cdeff8;
+  display: block;
+  font-size: 14px;
+}
+
+.form-group-error {
+  margin-bottom: 16px;
+  padding: 10px 35px 0;
+}
+
+.form-group-error .form-control {
+  border-color: #dc3545 !important;
+}
+
+.form-group-error .invalid-feedback {
+  display: block;
+  width: 100%;
+  color: #dc3545;
+  margin-top: -15px;
+}
+
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  color: #dc3545;
+  margin-top: -15px;
+}
+
+.pos_system {
+  max-width: 840px;
+  height: 585px;
+  background-color: #fff;
+  margin: 30px 0 0 320px;
+  transition: margin-left 0.1s;
+}
+
+.form-group {
+  margin-bottom: 16px;
+  padding: 10px 35px 0;
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0 25px 0;
+  padding: 6px 12px;
+  display: block;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border-radius: 5px;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #00add8;
+  outline: none;
 }
