@@ -423,7 +423,7 @@ a {
 @media screen and (max-width: 770px) {
   .pos_system {
     max-width: 620px !important;
-    height: 1180px !important;
+    height: 1190px !important;
   }
 
   .container {
@@ -797,9 +797,10 @@ input[type=password] {
 
 .pos_system {
   max-width: 840px;
-  height: 585px;
+  height: 595px;
   background-color: #fff;
   margin: 30px 0 0 320px;
+  padding-top: 15px;
   transition: margin-left 0.1s;
 }
 
@@ -823,4 +824,26 @@ input[type=password] {
 .form-control:focus {
   border-color: #00add8;
   outline: none;
+}
+
+.shake:focus {
+  animation: shake .7s;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(3px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
