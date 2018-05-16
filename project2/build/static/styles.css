@@ -410,16 +410,6 @@ a {
   display: block;
 }
 
-@media screen and (max-width: 850px) {
-  .navigation {
-    display: none !important;
-  }
-
-  .select {
-    display: block !important;
-  }
-}
-
 @media screen and (max-width: 770px) {
   .pos_system {
     max-width: 620px !important;
@@ -440,6 +430,16 @@ a {
 
   .form-group {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navigation {
+    display: none !important;
+  }
+
+  .select {
+    display: block !important;
   }
 }
 
@@ -558,6 +558,7 @@ header .enumerator {
   letter-spacing: 0.6px;
   text-align: center;
   line-height: 15px;
+  padding: 0 2px;
 }
 
 aside {

@@ -32,6 +32,24 @@ a{
 .full {
   display: block;
 }
+@media screen and (max-width: 770px){
+  .pos_system{
+    max-width: 620px !important;
+    height: 1190px !important;
+  }
+  .container{
+    height: 1600px !important;
+  }
+  .w-100{
+    display: none;
+  }
+  .col{
+    flex-basis: auto !important;
+  }
+  .form-group{
+    width: 100%;
+  }
+}
 @media screen and (max-width: 850px) {
   .navigation{
     display: none !important;
@@ -39,24 +57,6 @@ a{
   .select{
     display: block !important;
   }
-}
- @media screen and (max-width: 770px){
-  .pos_system{
-    max-width: 620px !important;
-    height: 1190px !important;
-  }
-   .container{
-    height: 1600px !important;
-  }
-   .w-100{
-     display: none;
-   }
-   .col{
-     flex-basis: auto !important;
-   }
-   .form-group{
-     width: 100%;
-   }
 }
 @media screen and (max-width: 1200px){
   .full{
