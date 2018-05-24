@@ -13,7 +13,7 @@
     margin: 30px 20px 0 20px !important;
   }
 }
-@media screen and (max-width: $xl){
+@media screen and (max-width: $xl) and (min-width: $md){
   .card{
     margin: 30px 20px 0 80px !important;
   }
