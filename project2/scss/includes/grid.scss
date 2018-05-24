@@ -8,6 +8,8 @@
     flex-grow: 1;
   }
 }
-.w-100{
-  width: 100% !important;
+@media screen and (max-width: $md){
+  .col{
+    flex-basis: auto !important;
+  }
 }
