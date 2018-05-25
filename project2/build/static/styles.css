@@ -737,7 +737,13 @@ input[type=password] {
 .content .navigation-bar {
   height: 40px;
   margin: 50px 0 0 0;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+@supports (justify-content: space-evenly) {
+  .content .navigation-bar {
+    justify-content: space-evenly;
+  }
 }
 
 @media screen and (max-width: 850px) {

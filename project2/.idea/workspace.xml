@@ -16,11 +16,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="content.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="content.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/includes/content.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1173">
-                  <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+                <state relative-caret-position="17">
+                  <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -43,11 +43,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cards.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="cards.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/includes/cards.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                  <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -156,10 +156,10 @@
         <option value="$PROJECT_DIR$/scss/includes/forms.scss" />
         <option value="$PROJECT_DIR$/scss/includes/grid.scss" />
         <option value="$PROJECT_DIR$/scss/includes/cards.scss" />
-        <option value="$PROJECT_DIR$/scss/includes/content.scss" />
         <option value="$PROJECT_DIR$/scss/includes/base.scss" />
         <option value="$PROJECT_DIR$/scss/includes/constant.scss" />
         <option value="$PROJECT_DIR$/views/includes/contet.pug" />
+        <option value="$PROJECT_DIR$/scss/includes/content.scss" />
       </list>
     </option>
   </component>
@@ -206,7 +206,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -217,17 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="project2" type="cbb8eebc:String" user="project2" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,6 +250,17 @@
               <item name="project2" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="project2" type="cbb8eebc:String" user="project2" />
             </path>
           </expand>
           <select />
@@ -416,11 +416,14 @@
       <workItem from="1527160253313" duration="1790000" />
       <workItem from="1527162067738" duration="1161000" />
       <workItem from="1527164810312" duration="1335000" />
+      <workItem from="1527239934895" duration="1347000" />
+      <workItem from="1527241753979" duration="594000" />
+      <workItem from="1527246876366" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175855000" />
+    <option name="totallyTimeSpent" value="178394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,16 +435,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="4" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" sideWeight="0.22239502" side_tool="true" weight="0.11433087" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.8104575" visible="true" weight="0.12223393" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.8061002" visible="true" weight="0.12223393" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32897604" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.208061" />
-      <window_info id="npm" order="0" sideWeight="0.18954249" side_tool="true" visible="true" weight="0.12223393" />
+      <window_info id="npm" order="0" sideWeight="0.19389978" side_tool="true" visible="true" weight="0.12223393" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3267974" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -462,13 +466,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/includes/contet.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/components/buttons/but-general_style.scss" />
     <entry file="file://$PROJECT_DIR$/scss/components/navigation.scss" />
     <entry file="file://$PROJECT_DIR$/scss/components/input_pos-system.scss" />
@@ -721,20 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/includes/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/includes/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/includes/contet.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -759,7 +742,28 @@
     <entry file="file://$PROJECT_DIR$/scss/includes/cards.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/includes/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="90" selection-start-column="90" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/includes/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
