@@ -1,0 +1,65 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  align-content: center;
+  &.logo{
+    width: 210px;
+    height: 48px;
+    background-image: url("../../images/icons/logo.png");
+    margin-left: 10px;
+  }
+  &.menu{
+    width: 32px;
+    height: 20px;
+    background-image: url("../../images/icons/menu.png");
+    margin-right: 20px;
+  }
+  &.notification{
+    width: 60px;
+    height: 37px;
+    background-image: url("../../images/icons/notification.png");
+  }
+  &.profile{
+    width: 65px;
+    height: 34px;
+    background-image: url("../../images/icons/profile.png");
+  }
+  &.search{
+    width: 23px;
+    height: 24px;
+    background-image: url("../../images/icons/search.png");
+    margin-left: -308px
+   }
+}
+.bulb{
+  background-image: url("../../images/icons/bulb-full.png");
+  width: 117px;
+  height: 40px;
+  margin: 30px auto;
+}
+.new-board-1{
+  background-image: url("../../images/icons/new-board.png");
+  width: 79px;
+  height: 79px;
+  margin-left: 31px;
+  border-radius: 39.5px;
+  box-shadow: 5px 9px 30px 0 rgba(0, 0, 0, 0.15);
+}
+.tip-1{
+  background-image: url("../../images/icons/tip-1.png");
+  width: 435px;
+  height: 21px;
+  margin: 31px;
+}
+.tip{
+  background-image: url("../../images/icons/tip.png");
+  width: 159px;
+  height: 21px;
+  margin: 0 0 30px 0;
+}
+.test-photo{
+  background-image: url("../../images/icons/test.png");
+}
+.test-photo2{
+  background-image: url("../../images/icons/test2.png");
+}

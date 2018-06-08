@@ -1,0 +1,72 @@
+$gWidth:  350px;
+$gHeight: 172px;
+$gWidthFirstColumn:  $gWidth * 0.66;
+$gWidthLastColumn:   $gWidth * 0.32;
+$gHeightFirstColumn: $gHeight / 2.1;
+
+
+.gallery-item {
+  display: block;
+  position: relative;
+  width: $gWidth;
+  height: $gHeight;
+  margin: 0 20px 20px 0;
+  border-radius: 15px;
+  &.size-1{
+    div:first-child {
+      width: $gWidth;
+      height: $gHeight;
+      background: url("../../images/icons/test.png") center;
+      background-size: cover;
+      border-radius: 15px;
+    }
+  }
+  &.size-2 {
+    div:first-child {
+      width: $gWidthFirstColumn;
+      height: $gHeight;
+      background: url("../../images/icons/test.png") center;
+      background-size: cover;
+      border-radius: 15px 0 0 15px;
+    }
+    div:last-child {
+      width: $gWidthLastColumn;
+      height: $gHeight;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: url("../../images/icons/test.png") center;
+      background-size: cover;
+      border-radius: 0 15px 15px 0;
+    }
+  }
+  &.size-3 {
+    div:first-child {
+      width: $gWidthFirstColumn;
+      height: $gHeight;
+      background: url("../../images/icons/test.png") center;
+      background-size: cover;
+      border-radius: 15px 0 0 15px;
+    }
+    div:first-child + div {
+      width: $gWidthLastColumn;
+      height: $gHeightFirstColumn;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: url("../../images/icons/test.png") center;
+      background-size: cover;
+      border-radius: 0 15px 0 0;
+    }
+    div:last-child {
+      width: $gWidthLastColumn;
+      height: $gHeightFirstColumn;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background: url("../../images/icons/test.png") center;
+      background-size: cover;
+      border-radius: 0 0 15px 0;
+    }
+  }
+}
