@@ -11040,28 +11040,6 @@ a {
   margin: 0 !important;
 }
 
-.title {
-  font-size: 32px;
-  margin: 40px auto 15px;
-  padding: 0 40px;
-}
-
-.text {
-  font-size: 24px;
-  color: #737374;
-  margin: auto;
-}
-
-.cell-size {
-  width: 350px;
-  height: 172px;
-  border-radius: 15px;
-}
-
-.no-repeat {
-  background-repeat: no-repeat;
-}
-
 .new-board {
   display: inline-block;
   float: right;
@@ -11085,45 +11063,6 @@ a {
   .new-board-text {
     display: none !important;
   }
-}
-
-.border-radius-top-r-15 {
-  border-radius: 0 15px 0 0;
-}
-
-.border-radius-bot-r-15 {
-  border-radius: 0 0 15px 0;
-}
-
-.img-container-full {
-  width: 350px;
-  height: 172px;
-  border-radius: 15px;
-}
-
-.img-container-lg {
-  width: 230px;
-  height: 172px;
-  border-radius: 15px 0 0 15px;
-}
-
-.img-container-md {
-  width: 113px;
-  height: 172px;
-  border-radius: 0 15px 15px 0;
-}
-
-.img-container-sm {
-  width: 113px;
-  height: 84px;
-}
-
-.margin-img-left-6 {
-  margin-left: 6px;
-}
-
-.margin-img-bot-6 {
-  margin-bottom: 6px;
 }
 
 header {
@@ -11170,18 +11109,18 @@ header .header-shadowline {
   width: 210px;
   height: 48px;
   background-image: url("./img/icons/logo.png");
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .icon.menu {
-  width: 32px;
+  width: 34px;
   height: 20px;
   background-image: url("./img/icons/menu.png");
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .icon.notification {
-  width: 60px;
+  width: 75px;
   height: 37px;
   background-image: url("./img/icons/notification.png");
 }
@@ -11256,14 +11195,14 @@ header .header-shadowline {
   position: relative;
   width: 350px;
   height: 172px;
-  margin: 0 20px 20px 0;
+  margin: 0 15px 30px;
   border-radius: 15px;
 }
 
 .gallery-item.size-1 div:first-child {
   width: 350px;
   height: 172px;
-  background: url("./img/icons/test.png") center;
+  background-position: center;
   background-size: cover;
   border-radius: 15px;
 }
@@ -11271,7 +11210,7 @@ header .header-shadowline {
 .gallery-item.size-2 div:first-child {
   width: 231px;
   height: 172px;
-  background: url("./img/icons/test.png") center;
+  background-position: center;
   background-size: cover;
   border-radius: 15px 0 0 15px;
 }
@@ -11282,7 +11221,7 @@ header .header-shadowline {
   position: absolute;
   top: 0;
   right: 0;
-  background: url("./img/icons/test.png") center;
+  background-position: center;
   background-size: cover;
   border-radius: 0 15px 15px 0;
 }
@@ -11290,7 +11229,7 @@ header .header-shadowline {
 .gallery-item.size-3 div:first-child {
   width: 231px;
   height: 172px;
-  background: url("./img/icons/test.png") center;
+  background-position: center;
   background-size: cover;
   border-radius: 15px 0 0 15px;
 }
@@ -11301,7 +11240,7 @@ header .header-shadowline {
   position: absolute;
   top: 0;
   right: 0;
-  background: url("./img/icons/test.png") center;
+  background-position: center;
   background-size: cover;
   border-radius: 0 15px 0 0;
 }
@@ -11312,7 +11251,19 @@ header .header-shadowline {
   position: absolute;
   bottom: 0;
   right: 0;
-  background: url("./img/icons/test.png") center;
+  background-position: center;
   background-size: cover;
   border-radius: 0 0 15px 0;
+}
+
+.title {
+  font-size: 32px;
+  margin: 40px auto 50px;
+  padding: 0 35px;
+}
+
+.text {
+  font-size: 24px;
+  color: #737374;
+  margin: auto;
 }

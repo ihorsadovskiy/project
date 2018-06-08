@@ -4,19 +4,18 @@ $gWidthFirstColumn:  $gWidth * 0.66;
 $gWidthLastColumn:   $gWidth * 0.32;
 $gHeightFirstColumn: $gHeight / 2.1;
 
-
 .gallery-item {
   display: block;
   position: relative;
   width: $gWidth;
   height: $gHeight;
-  margin: 0 20px 20px 0;
+  margin: 0 15px 30px;
   border-radius: 15px;
   &.size-1{
     div:first-child {
       width: $gWidth;
       height: $gHeight;
-      background: url("../../images/icons/test.png") center;
+      background-position: center;
       background-size: cover;
       border-radius: 15px;
     }
@@ -25,7 +24,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
     div:first-child {
       width: $gWidthFirstColumn;
       height: $gHeight;
-      background: url("../../images/icons/test.png") center;
+      background-position: center;
       background-size: cover;
       border-radius: 15px 0 0 15px;
     }
@@ -35,7 +34,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
       position: absolute;
       top: 0;
       right: 0;
-      background: url("../../images/icons/test.png") center;
+      background-position: center;
       background-size: cover;
       border-radius: 0 15px 15px 0;
     }
@@ -44,7 +43,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
     div:first-child {
       width: $gWidthFirstColumn;
       height: $gHeight;
-      background: url("../../images/icons/test.png") center;
+      background-position: center;
       background-size: cover;
       border-radius: 15px 0 0 15px;
     }
@@ -54,7 +53,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
       position: absolute;
       top: 0;
       right: 0;
-      background: url("../../images/icons/test.png") center;
+      background-position: center;
       background-size: cover;
       border-radius: 0 15px 0 0;
     }
@@ -64,7 +63,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
       position: absolute;
       bottom: 0;
       right: 0;
-      background: url("../../images/icons/test.png") center;
+      background-position: center;
       background-size: cover;
       border-radius: 0 0 15px 0;
     }
