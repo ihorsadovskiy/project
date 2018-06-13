@@ -11008,7 +11008,7 @@ a.text-dark:focus {
 
 * {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
 }
 
 html {
@@ -11029,11 +11029,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-.pad-0 {
-  padding: 0 !important;
-  margin: 0 0 20px 0;
 }
 
 .margin-0 {
@@ -11076,6 +11071,15 @@ header {
   padding-top: 25px;
 }
 
+header .logo-style {
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 46px;
+  padding-left: 65px;
+}
+
 header .enumerator {
   height: 20px;
   min-width: 20px;
@@ -11106,7 +11110,7 @@ header .header-shadowline {
 }
 
 .icon.logo {
-  width: 210px;
+  width: 180px;
   height: 48px;
   background-image: url("./img/icons/logo.png");
   margin-left: 30px;
@@ -11180,14 +11184,11 @@ header .header-shadowline {
   height: 45px;
   width: 315px;
   border-radius: 10px;
-  border: none;
   background-color: #efefef;
   font-size: 28px;
   padding: 0 10px 0 35px;
-}
-
-.input-search:focus .search {
-  display: none;
+  outline: none;
+  border: none;
 }
 
 .gallery-item {
@@ -11266,4 +11267,5 @@ header .header-shadowline {
   font-size: 24px;
   color: #737374;
   margin: auto;
+  line-height: 32px;
 }
