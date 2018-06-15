@@ -1,0 +1,16 @@
+.btn-bords {
+  background-color: #d7d7d7;
+  font-size: 22px;
+  border: none ;
+  border-radius: 10px;
+  width: 80px;
+  height: 42px;
+  margin-left: 15px;
+  cursor: pointer;
+  outline: none !important;
+}
+
+.active-btn {
+  background-color: #241f1f !important;
+  color: #fff !important;
+}

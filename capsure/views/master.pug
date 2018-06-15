@@ -3,12 +3,11 @@ html
     head
         include ./includes/head
     body
+        include ./includes/modal-window
         div
             include ./includes/header
             div
                 div.sub-header
                     block sub-header
-                div.container
-                    block content
-                div.new-board
-                    block new-board
+                block content
+                block new-board

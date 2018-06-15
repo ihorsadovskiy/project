@@ -30,6 +30,26 @@
     background-image: url("../../images/icons/search.png");
     margin-left: -308px
    }
+  &.plus{
+    width: 32px;
+    height: 31px;
+    background-image: url("../../images/icons/plus.png");
+    float: right;
+    margin: -5px 14px 0px 0;
+  }
+  &.menu-1{
+    width: 29px;
+    height: 5px;
+    background-image: url("../../images/icons/menu-1.png");
+    float: right;
+    margin: 10px 15px 0 0;
+  }
+}
+.close{
+  background-image: url("../../images/icons/close.png");
+  width: 17px;
+  height: 17px;
+  margin: 0rem -1rem -1rem auto !important;
 }
 .bulb{
   background-image: url("../../images/icons/bulb-full.png");
@@ -37,11 +57,23 @@
   height: 40px;
   margin: 30px auto;
 }
+.bulb-1 {
+  background-image: url("../../images/icons/bulb.png");
+  width: 37px;
+  height: 40px;
+  margin-left: 25px;
+  float: right;
+}
+.bulb-11 {
+  background-image: url("../../images/icons/bulb.png");
+  width: 37px;
+  height: 40px;
+  margin: 0 15px;
+}
 .new-board-1{
   background-image: url("../../images/icons/new-board.png");
   width: 79px;
   height: 79px;
-  margin-left: 31px;
   border-radius: 39.5px;
   box-shadow: 5px 9px 30px 0 rgba(0, 0, 0, 0.15);
 }

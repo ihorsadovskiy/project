@@ -1,0 +1,18 @@
+.modal{
+  background: rgba(0,0,0, 0.6);
+}
+.modal-window{
+  width: 1300px;
+  margin: 105px auto;
+  .board-list{
+    margin-top: 20px;
+  }
+  .modal-text{
+    font-size: 36px;
+    color: #535252;
+  }
+
+}
+.justify-content-normal{
+  justify-content: normal !important;
+}

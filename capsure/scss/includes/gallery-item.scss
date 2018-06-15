@@ -3,13 +3,19 @@ $gHeight: 172px;
 $gWidthFirstColumn:  $gWidth * 0.66;
 $gWidthLastColumn:   $gWidth * 0.32;
 $gHeightFirstColumn: $gHeight / 2.1;
-
+.gallery-item-header{
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+.gallery-item-margin{
+  margin: 0 45px 0 0;
+}
 .gallery-item {
   display: block;
   position: relative;
   width: $gWidth;
   height: $gHeight;
-  margin: 0 15px 30px;
+  margin: 0 0 30px;
   border-radius: 15px;
   &.size-1{
     div:first-child {

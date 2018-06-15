@@ -1,5 +1,9 @@
-
-.new-board{
+.new-board-fixed{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.new-board-bot{
   display: inline-block;
   float: right;
   padding-right: 32px;
@@ -19,4 +23,27 @@
   .new-board-text {
     display: none !important;
   }
+}
+.board-list{
+  margin: -20px 60px 0 45px;
+  font-size: 19px;
+}
+.enumerator {
+  height: 20px;
+  min-width: 20px;
+  position: absolute;
+  background-color: #f93a53;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.6px;
+  text-align: center;
+  line-height: 20px;
+  padding: 0 2px;
+  margin-left: 115px;
+  margin-top: 5px;
+}
+.pad-left-20{
+  padding-left: 20px;
 }

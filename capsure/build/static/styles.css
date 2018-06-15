@@ -11035,7 +11035,13 @@ a {
   margin: 0 !important;
 }
 
-.new-board {
+.new-board-fixed {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+.new-board-bot {
   display: inline-block;
   float: right;
   padding-right: 32px;
@@ -11060,6 +11066,32 @@ a {
   }
 }
 
+.board-list {
+  margin: -20px 60px 0 45px;
+  font-size: 19px;
+}
+
+.enumerator {
+  height: 20px;
+  min-width: 20px;
+  position: absolute;
+  background-color: #f93a53;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.6px;
+  text-align: center;
+  line-height: 20px;
+  padding: 0 2px;
+  margin-left: 115px;
+  margin-top: 5px;
+}
+
+.pad-left-20 {
+  padding-left: 20px;
+}
+
 header {
   height: 90px;
   width: 100%;
@@ -11080,7 +11112,7 @@ header .logo-style {
   padding-left: 65px;
 }
 
-header .enumerator {
+header .enumerator-header {
   height: 20px;
   min-width: 20px;
   position: absolute;
@@ -11142,6 +11174,29 @@ header .header-shadowline {
   margin-left: -308px;
 }
 
+.icon.plus {
+  width: 32px;
+  height: 31px;
+  background-image: url("./img/icons/plus.png");
+  float: right;
+  margin: -5px 14px 0px 0;
+}
+
+.icon.menu-1 {
+  width: 29px;
+  height: 5px;
+  background-image: url("./img/icons/menu-1.png");
+  float: right;
+  margin: 10px 15px 0 0;
+}
+
+.close {
+  background-image: url("./img/icons/close.png");
+  width: 17px;
+  height: 17px;
+  margin: 0rem -1rem -1rem auto !important;
+}
+
 .bulb {
   background-image: url("./img/icons/bulb-full.png");
   width: 117px;
@@ -11149,11 +11204,25 @@ header .header-shadowline {
   margin: 30px auto;
 }
 
+.bulb-1 {
+  background-image: url("./img/icons/bulb.png");
+  width: 37px;
+  height: 40px;
+  margin-left: 25px;
+  float: right;
+}
+
+.bulb-11 {
+  background-image: url("./img/icons/bulb.png");
+  width: 37px;
+  height: 40px;
+  margin: 0 15px;
+}
+
 .new-board-1 {
   background-image: url("./img/icons/new-board.png");
   width: 79px;
   height: 79px;
-  margin-left: 31px;
   border-radius: 39.5px;
   box-shadow: 5px 9px 30px 0 rgba(0, 0, 0, 0.15);
 }
@@ -11191,12 +11260,21 @@ header .header-shadowline {
   border: none;
 }
 
+.gallery-item-header {
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+.gallery-item-margin {
+  margin: 0 45px 0 0;
+}
+
 .gallery-item {
   display: block;
   position: relative;
   width: 350px;
   height: 172px;
-  margin: 0 15px 30px;
+  margin: 0 0 30px;
   border-radius: 15px;
 }
 
@@ -11257,10 +11335,16 @@ header .header-shadowline {
   border-radius: 0 0 15px 0;
 }
 
+.sub-header {
+  display: flex;
+  height: 130px;
+  width: 100%;
+  padding-top: 40px;
+}
+
 .title {
   font-size: 32px;
-  margin: 40px auto 50px;
-  padding: 0 35px;
+  padding: 0 0 0 70px;
 }
 
 .text {
@@ -11268,4 +11352,98 @@ header .header-shadowline {
   color: #737374;
   margin: auto;
   line-height: 32px;
+}
+
+.choise-mind {
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 0 10px;
+}
+
+.choise-mind .top {
+  width: 35px;
+  height: 15px;
+  border: solid 2px #a5a6a7;
+}
+
+.choise-mind .bot {
+  width: 35px;
+  height: 15px;
+  border: solid 2px #a5a6a7;
+  margin-top: 5px;
+}
+
+.choise-mind .top-l {
+  width: 15px;
+  height: 15px;
+  border: solid 2px #a5a6a7;
+  margin: 0 5px 0 0;
+  float: left;
+}
+
+.choise-mind .top-r {
+  width: 15px;
+  height: 15px;
+  border: solid 2px #a5a6a7;
+  float: left;
+}
+
+.choise-mind .bot-l {
+  width: 15px;
+  height: 15px;
+  border: solid 2px #a5a6a7;
+  margin: 5px 5px 0 0;
+  float: left;
+}
+
+.choise-mind .bot-r {
+  width: 15px;
+  height: 15px;
+  border: solid 2px #a5a6a7;
+  margin-top: 5px;
+  float: left;
+}
+
+.active div {
+  border-color: #595959 !important;
+}
+
+.btn-bords {
+  background-color: #d7d7d7;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+  height: 42px;
+  margin-left: 15px;
+  cursor: pointer;
+  outline: none !important;
+}
+
+.active-btn {
+  background-color: #241f1f !important;
+  color: #fff !important;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-window {
+  width: 1300px;
+  margin: 105px auto;
+}
+
+.modal-window .board-list {
+  margin-top: 20px;
+}
+
+.modal-window .modal-text {
+  font-size: 36px;
+  color: #535252;
+}
+
+.justify-content-normal {
+  justify-content: normal !important;
 }
