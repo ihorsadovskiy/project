@@ -3,10 +3,9 @@
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
-@import "../node_modules/bootstrap/scss/images";
-@import "../node_modules/bootstrap/scss/code";
 @import "../node_modules/bootstrap/scss/grid";
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/modal";
+// @import "../node_modules/bootstrap/scss/bootstrap";
 
 @import "./includes/base";
 @import "./includes/content";
@@ -17,3 +16,4 @@
 @import "./includes/sub-header";
 @import "./includes/buttons";
 @import "./includes/modal-windows";
+@import "./includes/constants";

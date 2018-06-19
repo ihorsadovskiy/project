@@ -3,95 +3,66 @@
   background-repeat: no-repeat;
   align-content: center;
   &.logo{
-    width: 180px;
+    width: 50px;
     height: 48px;
     background-image: url("../../images/icons/logo.png");
-    margin-left: 30px;
   }
   &.menu{
-    width: 34px;
-    height: 20px;
+    width: 32px;
+    height: 7px;
     background-image: url("../../images/icons/menu.png");
-    margin-right: 10px;
   }
   &.notification{
-    width: 75px;
-    height: 37px;
+    width: 30px;
+    height: 36px;
     background-image: url("../../images/icons/notification.png");
   }
   &.profile{
-    width: 65px;
-    height: 34px;
+    width: 33px;
+    height: 31px;
     background-image: url("../../images/icons/profile.png");
   }
   &.search{
     width: 23px;
     height: 24px;
     background-image: url("../../images/icons/search.png");
-    margin-left: -308px
    }
   &.plus{
     width: 32px;
     height: 31px;
     background-image: url("../../images/icons/plus.png");
-    float: right;
-    margin: -5px 14px 0px 0;
   }
   &.menu-1{
     width: 29px;
     height: 5px;
     background-image: url("../../images/icons/menu-1.png");
-    float: right;
-    margin: 10px 15px 0 0;
+  }
+  &.close{
+    background-image: url("../../images/icons/close.png");
+    width: 17px;
+    height: 17px;
+  }
+  &.new-board{
+    background-image: url("../../images/icons/new-board.png");
+    width: 79px;
+    height: 79px;
+    border-radius: 39.5px;
+    box-shadow: 5px 9px 30px 0 rgba(0, 0, 0, 0.15);
+  }
+  &.bulb {
+    background-image: url("../../images/icons/bulb.png");
+    width: 37px;
+    height: 40px;
+  }
+  &.bulb-full{
+    background-image: url("../../images/icons/bulb-full.png");
+    width: 117px;
+    height: 40px;
+  }
+  &.tip {
+    background-image: url("../../images/icons/tip.png");
+    width: 159px;
+    height: 21px;
   }
 }
-.close{
-  background-image: url("../../images/icons/close.png");
-  width: 17px;
-  height: 17px;
-  margin: 0rem -1rem -1rem auto !important;
-}
-.bulb{
-  background-image: url("../../images/icons/bulb-full.png");
-  width: 117px;
-  height: 40px;
-  margin: 30px auto;
-}
-.bulb-1 {
-  background-image: url("../../images/icons/bulb.png");
-  width: 37px;
-  height: 40px;
-  margin-left: 25px;
-  float: right;
-}
-.bulb-11 {
-  background-image: url("../../images/icons/bulb.png");
-  width: 37px;
-  height: 40px;
-  margin: 0 15px;
-}
-.new-board-1{
-  background-image: url("../../images/icons/new-board.png");
-  width: 79px;
-  height: 79px;
-  border-radius: 39.5px;
-  box-shadow: 5px 9px 30px 0 rgba(0, 0, 0, 0.15);
-}
-.tip-1{
-  background-image: url("../../images/icons/tip-1.png");
-  width: 435px;
-  height: 21px;
-  margin: 31px;
-}
-.tip{
-  background-image: url("../../images/icons/tip.png");
-  width: 159px;
-  height: 21px;
-  margin: 0 0 30px 0;
-}
-.test-photo{
-  background-image: url("../../images/icons/test.png");
-}
-.test-photo2{
-  background-image: url("../../images/icons/test2.png");
-}
+
