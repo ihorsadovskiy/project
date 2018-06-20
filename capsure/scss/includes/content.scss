@@ -27,16 +27,17 @@
     display: none !important;
   }
 }
-.gallery-ideas{
+%gallery-all{
   font-size: 19px;
   display: flex;
   flex-wrap: wrap;
 }
+.gallery-ideas{
+  @extend %gallery-all;
+}
 .gallery{
+  @extend %gallery-all;
   margin: 0 65px 0 45px;
-  font-size: 19px;
-  display: flex;
-  flex-wrap: wrap;
   .icon.plus{
     margin: -5px 0px 0px 0px;
   }
@@ -56,7 +57,7 @@
   letter-spacing: 0.6px;
   text-align: center;
   line-height: 20px;
-  padding: 0 2px;
+  padding: 0 5px;
   margin-left: 115px;
   margin-top: 5px;
 }
@@ -64,7 +65,13 @@
   padding-left: 20px;
 }
 .container{
-  .icon.bulb-full{
-    margin: 30px 44%;
+  .label-ideas{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .p{
+    font-size: 28px;
+    padding-left: 10px;
   }
 }

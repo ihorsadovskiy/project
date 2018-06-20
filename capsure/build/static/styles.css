@@ -1724,7 +1724,8 @@ a {
   }
 }
 
-.gallery-ideas {
+.gallery-ideas,
+.gallery {
   font-size: 19px;
   display: flex;
   flex-wrap: wrap;
@@ -1732,9 +1733,6 @@ a {
 
 .gallery {
   margin: 0 65px 0 45px;
-  font-size: 19px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .gallery .icon.plus {
@@ -1757,7 +1755,7 @@ a {
   letter-spacing: 0.6px;
   text-align: center;
   line-height: 20px;
-  padding: 0 2px;
+  padding: 0 5px;
   margin-left: 115px;
   margin-top: 5px;
 }
@@ -1766,8 +1764,15 @@ a {
   padding-left: 20px;
 }
 
-.container .icon.bulb-full {
-  margin: 30px 44%;
+.container .label-ideas {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container .p {
+  font-size: 28px;
+  padding-left: 10px;
 }
 
 header {

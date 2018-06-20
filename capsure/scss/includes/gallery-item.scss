@@ -3,6 +3,7 @@ $gHeight: 172px;
 $gWidthFirstColumn:  $gWidth * 0.66;
 $gWidthLastColumn:   $gWidth * 0.32;
 $gHeightFirstColumn: $gHeight / 2.1;
+$gBorderRadius:      15px;
 .gallery-item-header{
   padding-bottom: 5px;
 }
@@ -24,7 +25,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
       height: $gHeight;
       background-position: center;
       background-size: cover;
-      border-radius: 15px;
+      border-radius: $gBorderRadius;
     }
   }
   &.size-2 {
@@ -33,7 +34,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
       height: $gHeight;
       background-position: center;
       background-size: cover;
-      border-radius: 15px 0 0 15px;
+      border-radius: $gBorderRadius 0 0 $gBorderRadius;
     }
     div:last-child {
       width: $gWidthLastColumn;
@@ -43,7 +44,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
       right: 0;
       background-position: center;
       background-size: cover;
-      border-radius: 0 15px 15px 0;
+      border-radius: 0 $gBorderRadius $gBorderRadius 0;
     }
   }
   &.size-3 {
@@ -52,7 +53,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
       height: $gHeight;
       background-position: center;
       background-size: cover;
-      border-radius: 15px 0 0 15px;
+      border-radius: $gBorderRadius 0 0 $gBorderRadius;
     }
     div:first-child + div {
       width: $gWidthLastColumn;
@@ -62,7 +63,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
       right: 0;
       background-position: center;
       background-size: cover;
-      border-radius: 0 15px 0 0;
+      border-radius: 0 $gBorderRadius 0 0;
     }
     div:last-child {
       width: $gWidthLastColumn;
@@ -72,7 +73,7 @@ $gHeightFirstColumn: $gHeight / 2.1;
       right: 0;
       background-position: center;
       background-size: cover;
-      border-radius: 0 0 15px 0;
+      border-radius: 0 0 $gBorderRadius 0;
     }
   }
 }
