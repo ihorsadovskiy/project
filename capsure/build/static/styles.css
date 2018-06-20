@@ -1775,6 +1775,10 @@ a {
   padding-left: 10px;
 }
 
+.container-full .gallery > .gallery-item {
+  margin: 0 45px 30px 0;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -1941,12 +1945,12 @@ header .header-shadowline {
   padding-bottom: 5px;
 }
 
-.gallery-item-ideas {
+.galle {
   margin: 0 10px 30px 10px;
 }
 
-.gallery-item {
-  margin: 0 45px 30px 0;
+.container .gallery-ideas > .gallery-item {
+  margin: 0 10px 30px 10px;
 }
 
 .gallery-item-content {
