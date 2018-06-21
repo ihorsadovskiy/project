@@ -6,18 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="25c2f9ac-4afa-42e9-b551-597dd47e8b49" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/board-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/board-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ideas.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/ideas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/master.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/master.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/includes/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/includes/content.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/includes/gallery-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/includes/gallery-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/includes/sub-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/includes/sub-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/icons.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/icons.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ideas.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/ideas.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/modal-window.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/modal-window.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,37 +35,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="gallery-item.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/includes/gallery-item.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="modal-window.pug" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/views/includes/modal-window.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="board-list.pug" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/views/board-list.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1530">
-                  <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="ideas.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/ideas.pug">
               <provider selected="true" editor-type-id="text-editor">
@@ -85,20 +44,42 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sub-header.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/includes/sub-header.scss">
+          <file leaf-file-name="gallery-item.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/includes/gallery-item.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+                <state relative-caret-position="527">
+                  <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="icons.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/icons.pug">
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="icons.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/includes/icons.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="board-compact.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/board-compact.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="746">
+                  <caret line="98" column="77" selection-start-line="98" selection-start-column="77" selection-end-line="98" selection-end-column="77" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/includes/header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="680">
+                  <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -141,7 +122,6 @@
         <option value="$PROJECT_DIR$/views/master.pug" />
         <option value="$PROJECT_DIR$/views/includes/header.pug" />
         <option value="$PROJECT_DIR$/scss/includes/modal-windows.scss" />
-        <option value="$PROJECT_DIR$/scss/includes/icons.scss" />
         <option value="$PROJECT_DIR$/scss/includes/header.scss" />
         <option value="$PROJECT_DIR$/scss/includes/constants.scss" />
         <option value="$PROJECT_DIR$/scss/styles.scss" />
@@ -150,8 +130,10 @@
         <option value="$PROJECT_DIR$/scss/includes/content.scss" />
         <option value="$PROJECT_DIR$/views/ideas.pug" />
         <option value="$PROJECT_DIR$/scss/includes/sub-header.scss" />
-        <option value="$PROJECT_DIR$/scss/includes/gallery-item.scss" />
         <option value="$PROJECT_DIR$/views/includes/modal-window.pug" />
+        <option value="$PROJECT_DIR$/scss/includes/icons.scss" />
+        <option value="$PROJECT_DIR$/scss/includes/gallery-item.scss" />
+        <option value="$PROJECT_DIR$/views/board-compact.pug" />
       </list>
     </option>
   </component>
@@ -416,7 +398,7 @@
       <workItem from="1528966186337" duration="24274000" />
       <workItem from="1529402613833" duration="15437000" />
       <workItem from="1529484401364" duration="9602000" />
-      <workItem from="1529570159659" duration="1187000" />
+      <workItem from="1529570159659" duration="3239000" />
     </task>
     <task id="LOCAL-00001" summary="add express to packages">
       <created>1529402794765</created>
@@ -429,7 +411,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156923000" />
+    <option name="totallyTimeSpent" value="158975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,12 +427,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" sideWeight="0.2359375" side_tool="true" weight="0.13066386" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7640625" visible="true" weight="0.13066386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7640625" visible="true" weight="0.13066386" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32893288" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.1416122" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.12309368" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.12309368" />
       <window_info id="Structure" order="1" sideWeight="0.50074965" side_tool="true" weight="0.18774319" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3278867" />
       <window_info id="Favorites" order="3" sideWeight="0.50074965" side_tool="true" weight="0.18774319" />
@@ -476,13 +458,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add express to packages" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scss/includes/gallery-item.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/board-list.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -689,20 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/includes/icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/includes/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -752,6 +713,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/includes/sub-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/includes/modal-window.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/icons.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -759,10 +734,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/includes/content.scss">
+    <entry file="file://$PROJECT_DIR$/scss/includes/icons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/board-list.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="102" column="39" lean-forward="true" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -773,31 +755,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/includes/sub-header.scss">
+    <entry file="file://$PROJECT_DIR$/scss/includes/content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="247">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/includes/gallery-item.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="527">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/includes/modal-window.pug">
+    <entry file="file://$PROJECT_DIR$/views/board-compact.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="746">
+          <caret line="98" column="77" selection-start-line="98" selection-start-column="77" selection-end-line="98" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/board-list.pug">
+    <entry file="file://$PROJECT_DIR$/scss/includes/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+        <state relative-caret-position="680">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
         </state>
       </provider>
     </entry>

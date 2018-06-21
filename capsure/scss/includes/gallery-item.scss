@@ -14,7 +14,7 @@ $gBorderRadius:      15px;
 
 
 .gallery>.gallery-item{
-    margin: 0 45px 30px 0;
+    margin: 0 22px 30px 22px;
 }
 .modal-content>.gallery{
   margin-top: 15px;
@@ -29,12 +29,23 @@ $gBorderRadius:      15px;
 }
 .gallery{
   @extend %gallery-all;
-  margin: 0 65px 0 45px;
+  margin: 0 22px 0 22px;
   .icon.plus{
     margin: -5px 0px 0px 0px;
   }
   .icon.menu-1{
     margin: 10px 15px 0 0;
+  }
+}
+.gallery-item-compact{
+  div {
+    display: block;
+    position: relative;
+    border-radius: $gBorderRadius;
+    background-position: center;
+    background-size: cover;
+    width: $gWidthFirstColumn;
+    height: $gHeight;
   }
 }
 .gallery-item-content {
