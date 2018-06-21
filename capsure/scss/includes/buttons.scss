@@ -9,8 +9,17 @@
   cursor: pointer;
   outline: none !important;
 }
-
 .active-btn {
   background-color: #241f1f !important;
   color: #fff !important;
+}
+.btm-modal{
+  width: 270px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 1px #000;
+  font-weight: bold;
+  outline: none !important;
+  cursor: pointer;
 }
