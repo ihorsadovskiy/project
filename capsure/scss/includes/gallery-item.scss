@@ -8,9 +8,33 @@ $gBorderRadius:      15px;
   padding-bottom: 5px;
 }
 
-.container{
-  .gallery-ideas>.gallery-item{
+.gallery-ideas>.gallery-item{
     margin: 0 10px 30px 10px;
+}
+
+
+.gallery>.gallery-item{
+    margin: 0 45px 30px 0;
+}
+.modal-content>.gallery{
+  margin-top: 15px;
+}
+%gallery-all{
+  font-size: 19px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-ideas{
+  @extend %gallery-all;
+}
+.gallery{
+  @extend %gallery-all;
+  margin: 0 65px 0 45px;
+  .icon.plus{
+    margin: -5px 0px 0px 0px;
+  }
+  .icon.menu-1{
+    margin: 10px 15px 0 0;
   }
 }
 .gallery-item-content {
